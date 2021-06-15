@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="todo-sec">
+      <div class="todo-container">
+        <div class="todo-header">
+          <h2>TODOS</h2>
+        </div>
+
+        <div class="todo-input">
+          <form>
+            <input class="input" type="text" placeholder="Enter Todo" />
+            <button id="input-btn">Add Todo</button>
+            <div class="select">
+              <select id="todo-tasks" class="filter-todos">
+                <option value="All">All Tasks</option>
+                <option value="Completed">Completed Tasks</option>
+                <option value="Uncompleted">Uncompleted Tasks</option>
+              </select>
+            </div>
+          </form>
+        </div>
+
+        <div class="todo-list">
+          <div class="todo-items">
+            <ul class="item"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
